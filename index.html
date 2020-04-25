@@ -18,11 +18,9 @@
     <div id="opensci_digest">
         <vs-navbar v-model="activeItem" class="nabarx" style="position: fixed; background-color: white;">
             <div slot="title">
-                <vs-col vs-offset="6">
-                    <vs-navbar-title>
-                        OpenSci.io
-                    </vs-navbar-title>
-                </vs-col>
+                <vs-navbar-title>
+                    OpenSci.io
+                </vs-navbar-title>
             </div>
             <vs-navbar-item index="0">
                 <vs-button type="line"><a href="#">Home</a></vs-button>
@@ -33,25 +31,27 @@
             <vs-navbar-item index="2">
                 <vs-button type="line"><a href="#">About</a></vs-button>
             </vs-navbar-item>
-            <vs-col vs-offset="6">
-            </vs-col>
         </vs-navbar>
         <br>
         <br>
         <br>
-        <section>
-
-                <div class="float-left w-30pc p-5 flex items-center justify-start">
+        <vs-row>
+            <vs-col vs-lg="4" vs-md="4" vs-sm="12">
+                <div class="float-left w-50pc p-5 flex items-center justify-start">
                     <div class="pattern-dots-md red px-l5 py-5 max-w-10pc overflow-visible ml-5 md-ml-l5">
                         <h1 class="black" style="font-size:2em;">CHANGING HOW SCIENTISTS READ SCIENCE</h1>
                     </div>
                 </div>
-                <div class="float-right w-50pc p-5 m-10">
+            </vs-col>
+            <vs-col vs-lg="8" vs-md="8" vs-sm="12">
+                <div class="float-right self-center w-70pc p-5 m-10">
                     <h2>Too many preprints?</h2>
                     <span>We enable you to see exactly what you're interested in, as soon as it is online!</span>
                     <vs-button class="my-5" color="danger" type="gradient" icon="double_arrow">See how it works</vs-button>
                 </div>
-        </section>
+            </vs-col>
+
+        </vs-row>
         
     </div>
 
