@@ -25,9 +25,9 @@
             <vs-navbar-item index="0">
                 <vs-button type="line"><a href="#">Home</a></vs-button>
             </vs-navbar-item>
-            <vs-navbar-item index="1">
+            <!-- <vs-navbar-item index="1">
                 <vs-button type="line"><a href="https://twitter.com/OpenSci_News">News</a></vs-button>
-            </vs-navbar-item>
+            </vs-navbar-item> -->
             <vs-navbar-item index="2">
                 <vs-button type="line"><a href="#">About</a></vs-button>
             </vs-navbar-item>
@@ -49,12 +49,83 @@
                     <h2>Too many preprints?</h2>
                     <span>We enable you to see exactly what you're interested in, as soon as it is online!</span>
                     <br>
-                    <vs-button class="my-5" color="danger" type="gradient" icon="double_arrow">See how it works</vs-button>
+                    <vs-button class="my-5" color="danger" type="gradient" icon="double_arrow" onclick="alert('This project has not yet been launched. Please follow/contact @dipanshunagar on twitter for updates.')">See how it works</vs-button>
                 </div>
+            </vs-col>
+        </vs-row>
+
+
+        <div class="pattern-dots-sm slategray h-5 my-3"></div>
+        <br>
+
+        <vs-row class="justify-around p-2">
+            <vs-col type="flex" vs-justify="center" vs-align="center" vs-lg="3" vs-md="4" vs-sm="12">
+                <vs-card>
+                  <div slot="header">
+                    <h3>
+                      OpenSci Digest
+                    </h3>
+                  </div>
+                  <div>
+                    <span>A topic based preprint alert/subscription system that brings you content from multiple hosts in one relevant feed. This project is a work-in-progress.</span>
+                  </div>
+                  <div slot="footer">
+                    <vs-row vs-justify="flex-end">
+                        <a href="https://twitter.com/dipanshunagar">
+                            <vs-button color="primary" icon="help"></vs-button>
+                        </a>
+                    </vs-row>
+                  </div>
+                </vs-card>
+            </vs-col>
+            <vs-col type="flex" vs-justify="center" vs-align="center" vs-lg="3" vs-md="4" vs-sm="12">
+                <vs-card>
+                    <div slot="header">
+                      <h3>
+                        OpenSci Talk
+                        <!-- <vs-icon icon="forum" class="float-right"></vs-icon> -->
+                      </h3>
+                    </div>
+                    <div>
+                      <span>An auto updating feed where academic twitter talks #OpenScience. Follow <a href="https://twitter.com/OpenSciTalk">@OpenSciTalk</a> and join the global conversation.</span>
+                    </div>
+                    <div slot="footer">
+                      <vs-row vs-justify="flex-end">
+                          <a href="https://twitter.com/OpenSciTalk">
+                              <vs-button color="primary" icon="forum"></vs-button>
+                          </a>
+                        <!-- <vs-button color="rgb(230,230,230)" color-text="rgb(50,50,50)" icon="settings"></vs-button> -->
+                      </vs-row>
+                    </div>
+                </vs-card>
+            </vs-col>
+            <vs-col type="flex" vs-justify="center" vs-align="center" vs-lg="3" vs-md="4" vs-sm="12">
+                <vs-card>
+                    <div slot="header">
+                      <h3>
+                        OpenSci News
+                        <!-- <vs-icon icon="forum" class="float-right"></vs-icon> -->
+                      </h3>
+                    </div>
+                    <div>
+                      <span>A news feed giving you everything happening in #OpenScience on the web. Follow <a href="https://twitter.com/OpenSci_News">@OpenSci_News</a> and stay up to date.</span>
+                    </div>
+                    <div slot="footer">
+                      <vs-row vs-justify="flex-end">
+                          <a href="https://twitter.com/OpenSci_News">
+                              <vs-button color="primary" icon="add_circle"></vs-button>
+                          </a>
+                        <!-- <vs-button color="rgb(230,230,230)" color-text="rgb(50,50,50)" icon="settings"></vs-button> -->
+                      </vs-row>
+                    </div>
+                </vs-card>
             </vs-col>
 
         </vs-row>
-        
+        <br>
+        <br>
+        <br>
+
     </div>
 
 
